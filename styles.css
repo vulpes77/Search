@@ -1,0 +1,12 @@
+body {
+    background-image: url('bg.JPEG'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+header {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
