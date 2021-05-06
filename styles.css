@@ -1,4 +1,7 @@
+* {box-sizing: border-box;}
+
 body {
+    margin: 0;
     background-image: url('bg.JPEG'); 
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -9,4 +12,20 @@ header {
     text-align: center;
     font-size: 28px;
     color: white;
+    text-shadow: 4px 4px 4px lightblue;
+}
+
+input {
+    width: 700px;
+    height: 45px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    input {
+        width: 90%;
+        display: block;
+    }
+    
 }
