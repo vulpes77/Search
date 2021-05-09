@@ -39,9 +39,10 @@ article {
 
 
 @media screen and (max-width: 600px) {
-    .block {
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+    .foto {
+        width: 100%;
+        display: block;
+        margin:0px;
+}
     
 }
